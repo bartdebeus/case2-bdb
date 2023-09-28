@@ -11,8 +11,6 @@ path = 'C:/Users/bartd/OneDrive/Bureaublad/Data Science (Minor)/'
 import pandas as pd
 import streamlit as st
 
-import matplotlib.pyplot as plt
-import seaborn as sns
 import plotly.express as px
 
 from PIL import Image
@@ -56,19 +54,19 @@ def caption_bepalen(category):
     
 for category in categories:
     if selected_date == datetime(2023, 9, 3):
-        image = Image.open(f'{path}{category}_9-3.jpg')
+        image = Image.open(f'{category}_9-3.jpg')
         st.sidebar.image(image, caption=caption_bepalen(category), width = 200)
     if selected_date == datetime(2023, 9, 10):
-        image = Image.open(f'{path}{category}_9-10.jpg')
+        image = Image.open(f'{category}_9-10.jpg')
         st.sidebar.image(image, caption=caption_bepalen(category), width = 200)
     if selected_date == datetime(2023, 9, 17):
-        image = Image.open(f'{path}{category}_9-17.jpg')
+        image = Image.open(f'{category}_9-17.jpg')
         st.sidebar.image(image, caption=caption_bepalen(category), width = 200)
     if selected_date == datetime(2023, 9, 24):
-        image = Image.open(f'{path}{category}_9-24.jpg')
+        image = Image.open(f'{category}_9-24.jpg')
         st.sidebar.image(image, caption=caption_bepalen(category), width = 200)
     if selected_date == datetime(2023, 10, 1):
-        image = Image.open(f'{path}{category}_10-1.jpg')
+        image = Image.open(f'{category}_10-1.jpg')
         st.sidebar.image(image, caption=caption_bepalen(category), width = 200)
 
         
