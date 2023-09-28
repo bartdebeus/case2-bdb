@@ -223,7 +223,7 @@ with col_text_box_cat1:
     st.write('Te zien is dat over het algemeen uitgevers uitgevers de meeste weken op de, waarvan 50% meer dan 4 weken op de lijst staan. Bij zowel schrijvers als boeken staan 50% ervan 2 weken of minder op de lijst. Echter als boeken langer dan 2 weken op de lijst staan is de kans ook groter dat ze daar blijven dan als schrijvers 2 weken op de lijst staan.')
     st.write('Het boek dat het langste in de lijst staat is It Ends With Us, van de schrijver die het langst op de lijst staat, Colleen Hoover. Het boek is ook uitgegeven door de uitgever die het langst op de lijst staat, namelijk Atria.')
 with col_plaatje_box_cat1:
-    itendswithus = Image.open('C:/Users/bartd/OneDrive/Bureaublad/Data Science (Minor)/Voorblad/overig_itendswithus.jpg')
+    itendswithus = Image.open('overig_itendswithus.jpg')
     st.image(itendswithus, caption='Voorblad It Ends With Us', width = 200)    
 
         
